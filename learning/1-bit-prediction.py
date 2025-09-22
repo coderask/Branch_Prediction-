@@ -28,7 +28,7 @@ def one_bit_prediction(trace):
         # Make prediction (1-bit: just use the last outcome for this address)
         predicted = current_prediction
         
-        # Check if prediction was correct
+        # Check if prediction was correc
         if predicted == actual:
             correct_predictions += 1
         
