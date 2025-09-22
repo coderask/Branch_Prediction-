@@ -1,7 +1,7 @@
 '''1-bit prediction algorithm'''
 
 def one_bit_prediction(trace):
-    # Extract unique addresses from trace to determine table size
+    # Find all unique addresses from trace to determine table size
     unique_addresses = set()
     for i in trace:
         unique_addresses.add(i[0])

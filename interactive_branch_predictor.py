@@ -2,7 +2,7 @@
 Interactive Branch Prediction Analysis Tool
 ==========================================
 
-This is the final output of the Branch Prediction project. It provides an interactive
+This is the final output of my Branch Prediction project. It provides an interactive
 interface to analyze branch prediction algorithms on code traces.
 
 Features:
@@ -11,14 +11,14 @@ Features:
 - Compares different prediction algorithms
 - Interactive interface for future file input capability
 
-Author: Branch Prediction Project
+Author: Aarnav Koushik
 """
 
 import matplotlib.pyplot as plt
 import ast
 import parser
 from learning import gShare_prediction
-import learning.Bimodal_prediction as bimodal_prediction
+import learning.Bimodal_prediction as bimodal_prediction    
 import importlib.util
 import sys
 
